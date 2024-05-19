@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+#inline block 요소
+1. 속성정의
+   요소{display:inline-block;}
+2. inline 요소의 특징과 block 요소의 특징을 혼합해서 가지고 있는 속성값
+   1) bolck 요소 : width, heigth, margin, paddinf 속성 설정
+   2) inline 요소 : 새로운 줄에서 시작하지 ㅇ낳고, 텍스트처럼 한줄에 표시된다.
+*/
+span{ border: 1px solid green;
+}
+
+.bolck{ display: block; 
+	     width: 100px; height: 100px; padding: 10px;		
+	   }
+
+.lnline_bolck{ display: inline-block;        
+			  width: 100px; height: 100px; padding: 10px;
+ }
+ 
+
+
+</style>
+
+</head>
+<body>
+	<h2>기본적인 span 요소</h2>
+	<span>안녕하세요1</span>
+	<span>안녕하세요2</span>
+	<span>안녕하세요3</span>
+	<h3>bolck 속성이 가지고 있는 sapn 요소</h3>
+	<span class="bolck">안녕하세요1</span>
+	<span class="bolck">안녕하세요2</span>
+	<span class="bolck">안녕하세요3</span>
+
+	<h3>lnline_bolck 속성이 가지고 있는 sapn 요소</h3>
+	<span class="lnline_bolck">안녕하세요1(inline-block)</span>
+	<span class="lnline_bolck">안녕하세요2(inline-block)</span>
+	<span class="lnline_bolck">안녕하세요3(inline-block)</span>
+
+</body>
+</html>

@@ -6,10 +6,12 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
+
 </style>
 </head>
 <body>
 <jsp:include page="top.jsp"/>
+
 </body>
 <script type="text/javascript">
 </script>

@@ -31,7 +31,7 @@
 		다중 데이터 : ${paramValues.colors[1]}</h3>	
 	<h3 style="background:${paramValues.colors[2]}">
 		다중 데이터 : ${paramValues.colors[2]}</h3>
-	<form>
+	<form> 
 		이름:<input type="text" name="name"/><br>
 		색상1:<input type="color" name="colors"/><br>
 		색상2:<input type="color" name="colors"/><br>

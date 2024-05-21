@@ -6,6 +6,14 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
+#memList{
+	position: relative;
+	left: 30%;
+}
+#memList>table{
+	border-collapse: collapse;
+	border-color: lightgray;
+}
 td:nth-child(5){
 	text-align: center;
 }
@@ -14,6 +22,8 @@ td:nth-child(5){
 <body>
 <jsp:include page="top.jsp"/>
 <br><br><br>
+
+<div id="memList">
 <h1>회원 목록</h1>
 <table border="1">
 	<thead>
@@ -60,6 +70,7 @@ td:nth-child(5){
 	%>
 	</tbody>	
 </table>
+</div>
 </body>
 <script type="text/javascript">
 </script>
